@@ -1,0 +1,13 @@
+/Users/vvvv/Projects/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.deps.json
+/Users/vvvv/Projects/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.runtimeconfig.json
+/Users/vvvv/Projects/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.runtimeconfig.dev.json
+/Users/vvvv/Projects/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll
+/Users/vvvv/Projects/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.AssemblyReference.cache
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.AssemblyInfoInputs.cache
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.AssemblyInfo.cs
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.CoreCompileInputs.cache
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb
+/Users/vvvv/Projects/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+/Users/vvvv/Projects/Test_Proj/Test_Proj/bin/Debug/netcoreapp3.1/Test_Proj.deps.json
+/Users/vvvv/Projects/Test_Proj/Test_Proj/bin/Debug/netcoreapp3.1/Test_Proj.runtimeconfig.json
+/Users/vvvv/Projects/Test_Proj/Test_Proj/bin/Debug/netcoreapp3.1/Test_Proj.runtimeconfig.dev.json
+/Users/vvvv/Projects/Test_Proj/Test_Proj/bin/Debug/netcoreapp3.1/Test_Proj.dll
+/Users/vvvv/Projects/Test_Proj/Test_Proj/bin/Debug/netcoreapp3.1/Test_Proj.pdb
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.csproj.AssemblyReference.cache
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.AssemblyInfoInputs.cache
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.AssemblyInfo.cs
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.csproj.CoreCompileInputs.cache
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.dll
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.pdb
+/Users/vvvv/Projects/Test_Proj/Test_Proj/obj/Debug/netcoreapp3.1/Test_Proj.genruntimeconfig.cache

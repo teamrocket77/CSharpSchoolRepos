@@ -1,0 +1,13 @@
+/Users/vvvv/Projects/Assignment_2/Assignment_2/bin/Debug/netcoreapp3.1/Assignment_2.deps.json
+/Users/vvvv/Projects/Assignment_2/Assignment_2/bin/Debug/netcoreapp3.1/Assignment_2.runtimeconfig.json
+/Users/vvvv/Projects/Assignment_2/Assignment_2/bin/Debug/netcoreapp3.1/Assignment_2.runtimeconfig.dev.json
+/Users/vvvv/Projects/Assignment_2/Assignment_2/bin/Debug/netcoreapp3.1/Assignment_2.dll
+/Users/vvvv/Projects/Assignment_2/Assignment_2/bin/Debug/netcoreapp3.1/Assignment_2.pdb
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.csproj.AssemblyReference.cache
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.AssemblyInfoInputs.cache
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.AssemblyInfo.cs
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.csproj.CoreCompileInputs.cache
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.dll
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.pdb
+/Users/vvvv/Projects/Assignment_2/Assignment_2/obj/Debug/netcoreapp3.1/Assignment_2.genruntimeconfig.cache

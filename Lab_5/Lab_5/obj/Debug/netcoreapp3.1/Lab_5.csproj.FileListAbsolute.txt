@@ -1,0 +1,13 @@
+/Users/vvvv/Projects/Lab_5/Lab_5/bin/Debug/netcoreapp3.1/Lab_5.deps.json
+/Users/vvvv/Projects/Lab_5/Lab_5/bin/Debug/netcoreapp3.1/Lab_5.runtimeconfig.json
+/Users/vvvv/Projects/Lab_5/Lab_5/bin/Debug/netcoreapp3.1/Lab_5.runtimeconfig.dev.json
+/Users/vvvv/Projects/Lab_5/Lab_5/bin/Debug/netcoreapp3.1/Lab_5.dll
+/Users/vvvv/Projects/Lab_5/Lab_5/bin/Debug/netcoreapp3.1/Lab_5.pdb
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.csproj.AssemblyReference.cache
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.AssemblyInfoInputs.cache
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.AssemblyInfo.cs
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.csproj.CoreCompileInputs.cache
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.dll
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.pdb
+/Users/vvvv/Projects/Lab_5/Lab_5/obj/Debug/netcoreapp3.1/Lab_5.genruntimeconfig.cache

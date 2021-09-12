@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C24F8A52-83BD-4C3E-B661-8585BFD949DA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_3/Program.cs">
+    <Files>
+      <File FileName="Assignment_3/Program.cs" Line="44" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment_3" expanded="True">
+            <Node name="Assignment_3" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assignment__3 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
