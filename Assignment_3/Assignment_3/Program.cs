@@ -4,6 +4,7 @@ namespace Assignment_3
 {
     class Program
     {
+        //double HI, HIc, HIk;
         //takes in two doubles
         static double calculateHeatIndex(double T, double R)
         {
@@ -36,20 +37,68 @@ namespace Assignment_3
 
         static void Main(string[] args)
         {
+            //ask for temp in f
             Console.WriteLine("What's the current temperature in farenheit?");
             double tempf = Double.Parse(Console.ReadLine());
+
+            // created temperature object
             Temperature T = new Temperature(tempf, 'f');
+            double HI, HIc, HIk;
 
 
             // if temp gre than 80
-            if (tempf > 80)
+            if (tempf >= 80)
             {
                 Console.WriteLine("What's the current humidity?");
                 double humidity = Double.Parse(Console.ReadLine());
+                //if gre 40
                 if (humidity > 40)
                 {
-                    calculateHeatIndex(tempf, humidity);
+                    HI = calculateHeatIndex(tempf, humidity);
+                    //output in C F and K
+                    HIc = Temperature.convertFToC(HI);
+                    HIk = Temperature.convertCToK(HIc);
+                    Console.WriteLine("Heat Index is {0}f and {1}c and {2}c", HI, HIc, HIk);
                 }
+                else
+                {
+                    //output in C F and K
+                    Console.WriteLine("The Heat Index is just temperature");
+                    HIc = Temperature.convertFToC(tempf);
+                    HIk = Temperature.convertCToK(HIc);
+                    Console.WriteLine("The current temperature is {0}f, {1}, and {2}c", tempf, HIc, HIk);
+                }
+            } else if (tempf <= 50){
+                Console.WriteLine("What's the current windspeed?");
+                double windspeed = Double.Parse(Console.ReadLine());
+                //if gre 3
+                if (windspeed >= 3)
+                {
+                    //print out windchill in F C K
+                    double WC, WCc, WCk;
+                    WC = calculateWindChill(tempf, windspeed);
+                    WCc = Temperature.convertFToC(WC);
+                    WCk = Temperature.convertCToK(WCc);
+                    Console.WriteLine("The current wind chill is {0}f, {1}c, and {2}k", WC, WCc, WCk);
+                }
+                else
+                {
+                    Console.WriteLine("There is no WindChill");
+                    //print out temp in KCF
+                    double tempc, tempk;
+                    tempc = Temperature.convertFToC(tempf);
+                    tempk = Temperature.convertCToK(tempc);
+                    Console.WriteLine("Temperature you entered is {0}f, {1}c and {2}k", tempf, T.getTempInC(), T.getTempInK());
+                }
+
+            } else if (tempf > 50 && tempf < 80)
+            {
+                //print out temp in KCF
+                Console.WriteLine("There is currently no HeadIndex nor WindChill.");
+                double tempc, tempk;
+                tempc = Temperature.convertFToC(tempf);
+                tempk = Temperature.convertCToK(tempc);
+                Console.WriteLine("Temperature you entered is {0}f, {1}c and {2}k", tempf, T.getTempInC(), T.getTempInK());
             }
         }
     }
@@ -59,7 +108,7 @@ namespace Assignment_3
         private double temperature;
 
         public Temperature() {
-            temperature = 73f;
+            temperature = 72f;
 
         }
 
@@ -71,19 +120,19 @@ namespace Assignment_3
             else temperature = newTemperature;
         }
 
-        public double convertCToF(double temp)
+        static public double convertCToF(double temp)
         {
-            return 9 / 5 * temp + 32;
+            return (double)9 / 5 * temp + 32;
         }
-        public double convertFToC(double temp)
+        static public double convertFToC(double temp)
         {
-            return 5/9 *(temp-32);
+            return (temp-32)*(double)5/9;
         }
         public double convertKToC(double temp)
         {
             return temp - 273.15;
         }
-        public double convertCToK(double temp)
+        static public double convertCToK(double temp)
         {
             return temp + 273.15;
         }

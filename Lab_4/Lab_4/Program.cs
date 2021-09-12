@@ -15,7 +15,6 @@ namespace Lab_4
     {
         static void Main(string[] args)
         {
-            int i = 0;
             Checking checking = new Checking();
             Savings savings = new Savings();
             decimal decimalamt;
@@ -23,18 +22,19 @@ namespace Lab_4
             int input = 0;
             string prompt =
 @"1.  Withdraw from Checking 
-    2.  Withdraw from Savings 
-    3.  Deposit to Checking 
-    4.  Deposit to Savings 
-    5.  Balance of Checking 
-    6.  Balance of Savings 
-    7.  Award Interest to Savings now 
-    8.  Quit";
+2.  Withdraw from Savings 
+3.  Deposit to Checking 
+4.  Deposit to Savings 
+5.  Balance of Checking 
+6.  Balance of Savings 
+7.  Award Interest to Savings now 
+8.  Quit";
 
 
             //while loop to control input
             while (input != 8)
             {
+                Console.WriteLine("");
                 Console.WriteLine(prompt);
                 input = Int16.Parse(Console.ReadLine());
                 switch (input)
@@ -64,17 +64,16 @@ namespace Lab_4
                         savings.Deposit(decimalamt);
                         break;
                     case 5:
-                        Console.WriteLine("Checking {0}", checking.ToString());
+                        //Your for the both of these
+                        Console.WriteLine("Your {0}", checking.ToString());
                         break;
                     case 6:
-                        Console.WriteLine("Savins {0}", savings.ToString());
+                        Console.WriteLine("Your {0}", savings.ToString());
                         break;
                     case 7:
                         savings.AccrueIntrest();
                         break;
                 }
-                //with printout out account numbers in Decimal form
-                // Savins accrue intrest wrong number is displayed
             }
         }
     }
@@ -82,28 +81,18 @@ namespace Lab_4
     class Account
     {
         protected static int _accountCounter = 1001;
-        public decimal Balance { get; protected set; }
-        protected int _accountNum, _balance;
-        public int AccountNum
-        {
-            get
-            {
-                return _accountNum;
-            }
-            protected internal set
-            {
-                _accountNum = _accountCounter++;
-            }
-        }
+        public decimal Balance { get; private protected set; }
+        //protected int _accountNum;
+        public int AccountNum { get; private protected set; }
         public Account()
         {
             Balance = 0;
-            AccountNum = _accountCounter;
+            AccountNum = _accountCounter++;
         }
-        public Account(int Balance)
+        public Account(decimal Balance)
         {
             this.Balance = Balance;
-            AccountNum = _accountCounter;
+            AccountNum = _accountCounter++;
         }
         public void Withdrawl(decimal cashout)
         {
@@ -119,7 +108,7 @@ namespace Lab_4
         {
             if(cashin < 0)
             {
-                Console.WriteLine("Sorry you cannot Withdraw Negative amounts");
+                Console.WriteLine("Sorry you cannot deposit Negative amounts");
                 return;
             }
             Balance += cashin;
@@ -131,6 +120,9 @@ namespace Lab_4
         public Checking() : base()
         {
 
+        }
+        public Checking(decimal Balance) : base(Balance)
+        {
         }
 
         public new void Withdrawl(decimal cashout)
@@ -161,6 +153,10 @@ namespace Lab_4
         {
 
         }
+        public Savings(decimal Balance): base(Balance)
+        {
+
+        } 
 
         public new void Withdrawl(decimal cashout)
         {
@@ -175,7 +171,7 @@ namespace Lab_4
                     "you are below $500");
                 Balance -= (10 + cashout);
             }
-            Balance -= cashout;
+            else Balance -= cashout;
         }
         public new void Deposit(decimal cashin)
         {
@@ -191,7 +187,7 @@ namespace Lab_4
                 Console.WriteLine("Charging a fee of $10.");
                 Balance -= 10;
             }
-            Console.WriteLine("This is deposit {0} to this account", _depositinstances);
+            Console.WriteLine("This is deposit #{0} for this account", _depositinstances);
             Balance += cashin;
         }
         public void AccrueIntrest()
@@ -203,7 +199,7 @@ namespace Lab_4
         }
         public override string ToString()
         {
-            return ("Available Savings"+ AccountNum.ToString() +" Balance: " + Balance.ToString("F2"));
+            return ("Available Savings "+ AccountNum.ToString() +" Balance: " + Balance.ToString("F2"));
         }
     }
 }
