@@ -6,6 +6,7 @@
  * 
  * Assignment: {Assignment 2}
  * Instructor: Kavitha
+ * Guesses a word, assuming that the word is inside of the string
  */
 using System;
 

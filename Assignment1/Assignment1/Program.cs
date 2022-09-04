@@ -6,6 +6,8 @@
  * 
  *  Assignment: Assignment 1
  *  Instructor: Kavitha
+ *  Summary: 
+ *    Program attempts to find the amount of coins needed for some amount of change
  */
 
 using System;
